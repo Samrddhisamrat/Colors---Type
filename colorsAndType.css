@@ -22,6 +22,8 @@ body {
 }
 
 .wrap {
+   display: flex;
+   justify-content: space-between;
    margin-left: 150px;
    margin-top: 145px;
 }
@@ -44,7 +46,7 @@ body {
 
 .colors-item-desc-name {
    width: 171px;
-   padding-top: 10px;
+   padding-top: 7px;
    font-family: 'Montserrat';
    font-style: normal;
    font-weight: 700;
@@ -90,4 +92,33 @@ body {
 
 .green {
    background-color: #6FCF97;
+}
+
+.example {
+   width: 436px;
+   margin-right: 150px;
+}
+
+.example-item {
+   display: flex;
+}
+
+.example-item h1 {
+   text-transform: uppercase;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 400;
+   font-size: 24px;
+   line-height: 29px;
+   text-align: right;
+   color: rgba(31, 32, 65, 0.25);
+}
+
+.example-item p {
+   margin-left: 31px;
+   font-family: 'Montserrat';
+   font-style: normal;
+   font-weight: 700;
+   font-size: 24px;
+   line-height: 29px;
 }
